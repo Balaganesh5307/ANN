@@ -92,9 +92,6 @@ pip install -r requirements.txt
 # Standard execution (generates metrics & saves plot to disk)
 python main.py
 
-# Or explicitly using Python 3.12:
-& "C:\Users\bg695\AppData\Local\Programs\Python\Python312\python.exe" main.py
-```
 
 ### Step 3: Interactive Plot Display
 By default, the script saves [`results_visualization.png`](results_visualization.png) directly to disk without blocking execution. To keep the GUI window open until manually closed, pass the `--show` flag:
